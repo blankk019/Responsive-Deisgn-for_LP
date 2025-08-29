@@ -33,4 +33,4 @@ This project demonstrates a clean layout, responsive design, and practical use o
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/coffee-shop-landing-page.git
+   git clone https://github.com/your-username/coffee-shop-landing-page.git](https://github.com/blankk019/Responsive-Deisgn-for_LP.git
