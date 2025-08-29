@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Coffee Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="fas fa-coffee"></i> Coffee Shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-white text-center py-5 bg-primary">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to our coffee shop</h1>
+        <h5>Freshly brewed coffee every day</h5>
+        <button type="button" class="btn btn-warning mt-3" style="width: 10rem;">Order Now</button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="text-dark text-center py-5 bg-secondary bg-opacity-25">
+      <div class="container">
+        <h5 class="display-5">About Our Coffee</h5>
+        <p class="mt-3">We serve the finest coffee beans from around the world. Our expert baristas craft each cup with love and precision.</p>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="text-center py-5">
+      <div class="container">
+        <h5 class="display-5">Our Menu</h5>
+        <div class="row justify-content-center gap-4 mt-4">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 p-3">
+              <h5 class="text-primary">Espresso</h5>
+              <p>Rich and bold espresso shot</p>
+              <div class="d-flex justify-content-center">
+                <span class="btn btn-success">$3.50</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 p-3">
+              <h5 class="text-primary">Cappuccino</h5>
+              <p>Espresso with steamed milk foam</p>
+              <div class="d-flex justify-content-center">
+                <span class="btn btn-success">$4.25</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 p-3">
+              <h5 class="text-primary">Latte</h5>
+              <p>Smooth espresso with steamed milk</p>
+              <div class="d-flex justify-content-center">
+                <span class="btn btn-success">$4.75</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit Section -->
+    <section class="text-white text-center py-5 bg-dark">
+      <div class="container">
+        <h5 class="display-5">Visit Us Today</h5>
+        <p class="mt-3">
+          <i class="bi bi-geo-alt-fill"></i> 123 Coffee Street, Bean City<br>
+          <i class="bi bi-telephone-fill"></i> (555) 123-COFFEE<br>
+          <i class="bi bi-clock"></i> Open 7AM - 8PM Daily
+        </p>
+        <button type="button" class="btn btn-warning bg-dark text-warning mt-3" style="width: 10rem;">Get Directions</button>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>
